@@ -7,7 +7,7 @@ ALLOWED_HOSTS = []
 DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'BDINFO',
+        'NAME': 'BDFINAL',
         'Trusted_Connection':'yes',
         'HOST':'localhost\\SQLEXPRESS',
         'OPTIONS':{
